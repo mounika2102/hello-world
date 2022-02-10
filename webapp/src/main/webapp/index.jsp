@@ -1,11 +1,13 @@
 
 
-
-<form>  
-  <p>Kindly Select your favorite color</p>  
-  <input type="radio" name="color" value="red"> Red <br>  
-  <input type="radio" name="color" value="blue"> blue <br>  
-  <input type="radio" name="color" value="green">green <br>  
-  <input type="radio" name="color" value="pink">pink <br>  
-  <input type="submit" value="submit">  
-</form> 
+ <form> 
+ 	  <label>Enter your Name:</label>
+ 	  <input type="text" name="name">
+      <p>Kindly Select your favorite sports</p>
+      <input type="checkbox" name="sport1" value="cricket">Cricket<br>
+	  <input type="checkbox" name="sport2" value="tennis">Tennis<br>
+	  <input type="checkbox" name="sport3" value="football">Football<br>
+	  <input type="checkbox" name="sport4" value="baseball">Baseball<br>
+	  <input type="checkbox" name="sport5" value="badminton">Badminton<br><br>
+	  <input type="submit" value="submit">
+  </form>
